@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxFactory": "preact",
+    "jsxFragmentFactory": "Fragment",
+    "jsxImportSource": "asdf"
+  },
+  "imports": {
+    "asdf/jsx-runtime": "./jsx-runtime.ts"
+  }
+}
